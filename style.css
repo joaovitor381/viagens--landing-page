@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("https://tendencee.s3.amazonaws.com/posts/2725722-Villages-Europeias-Cartao-perfeitas-em-linha-reta-fora-de-um-conto-de-fadas-J1HPhoD9ua.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Utilizando a altura total da viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffd700;
+}
+
+section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
